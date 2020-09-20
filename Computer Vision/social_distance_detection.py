@@ -3,10 +3,10 @@ import argparse
 import sys
 import cv2
 from math import pow, sqrt
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
-# x_ath = []
-# y_ath = []
+x_ath = []
+y_ath = []
 
 # Parse the arguments from command line
 arg = argparse.ArgumentParser(description='Social distance detection')
@@ -48,8 +48,8 @@ frame_no = 0
 
 while cap.isOpened():
 
-    # x_ath = []
-    # y_ath = []
+    x_ath = []
+    y_ath = []
 
     frame_no = frame_no+1
 
@@ -138,11 +138,11 @@ while cap.isOpened():
         cv2.rectangle(frame, (startX, startY), (endX, endY), COLOR, 2)
         y = startY - 15 if startY - 15 > 15 else startY + 15
         # Convert cms to feet
-        cv2.putText(frame, 'Depth: {i} ft'.format(i=round(pos_dict[i][2]/30.48,4)), (startX, y),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLOR, 2)
+        # cv2.putText(frame, 'Depth: {i} ft'.format(i=round(pos_dict[i][2]/30.48,4)), (startX, y),
+        #             cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLOR, 2)
 
-        # x_ath.append((startX + endX)/2)
-        # y_ath.append(round(pos_dict[i][2]/30.48,4))
+        x_ath.append((startX + endX)/2)
+        y_ath.append(round(pos_dict[i][2]/30.48,4))
 
         # print(x_ath)
         # print(y_ath)
@@ -153,10 +153,10 @@ while cap.isOpened():
     cv2.imshow('Frame', frame)
     cv2.resizeWindow('Frame',800,600)
 
-    # plt.scatter(x_ath,y_ath)
-    # plt.pause(0.001)
-    # plt.clf()
-    # plt.axis([0, w, 0, 50])
+    plt.scatter(x_ath,y_ath)
+    plt.pause(0.001)
+    plt.clf()
+    plt.axis([0, w, 0, 50])
 
     key = cv2.waitKey(1) & 0xFF
 
