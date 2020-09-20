@@ -13,3 +13,7 @@ Hackathon project for HackMIT 2020
 
 ## Path Planning with RL On IBM Watson
 ![Screenshot from 2020-09-20 18-22-39](https://user-images.githubusercontent.com/36446402/93711737-52a8f400-fb6e-11ea-8269-e60e926e5314.png)
+
+## Human Proximity Tracking 
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/36446402/93711991-14143900-fb70-11ea-8dab-cc595b2d25d1.gif)
