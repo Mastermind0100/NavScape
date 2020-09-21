@@ -8,7 +8,7 @@ Hackathon project for HackMIT 2020
 <br>
 
 ## The Idea
-NavScape is an AI enabled indoor navigation system that uses CCTV footage data in conjunction with existing methodologies to prepare public institutions to sustain in a post-covid world. This product helps you navigate within buildings and indoor environments where GPS is unavailable. NavScape ensures the safety of a person who wants to go from point A to point B in a building by finding routes for him/her such that there is minimum human interaction. It avoids paths that will expose the user from entering crowded areas thereby ensuring safety from Coronavirus in a post Covid19 world. The entire product has been wrapped up into a Unity3D simulation too!
+NavScape is an AI enabled indoor navigation system that uses CCTV footage data in conjunction with existing methodologies to prepare public institutions to sustain in a post-covid world. This product helps you navigate within buildings and indoor environments where GPS is unavailable. NavScape ensures the safety of a person who wants to go from point A to point B in a building by finding routes for him/her such that there is minimum human interaction. It avoids paths that will expose the user from entering crowded areas thereby ensuring safety from Coronavirus in a post Covid19 world. The entire product has been wrapped up into a Unity3D simulation.
 
 ## Unity Simulation
 
