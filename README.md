@@ -17,7 +17,7 @@ NavScape is an AI enabled indoor navigation system that uses CCTV footage data i
 ## Blueprint
 ![116588782_396158441347422_6539053285532239326_n](https://user-images.githubusercontent.com/36446402/93711402-9cdca600-fb6b-11ea-9497-eb4262bd5fea.jpg)
 
-## Path Planning with RL On IBM Watson
+## Path Planning with RL
 ![Screenshot from 2020-09-20 18-22-39](https://user-images.githubusercontent.com/36446402/93711737-52a8f400-fb6e-11ea-8269-e60e926e5314.png)
 
 ## Human Proximity Tracking 
